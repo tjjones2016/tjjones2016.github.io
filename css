@@ -1,0 +1,20 @@
+body{
+	background-color: blue;
+}
+.intro{
+	width:100%;
+	height: auto;
+	color: white;
+	/*background-color:#000;*/
+	/*background: url(. ./img/image 1.jpg) no-repeat bottom*/
+
+background-size: cover;
+}
+.brand-heading{
+	color:black;
+
+}
+#about{
+	height: 550px;
+	background: #131313;
+}
