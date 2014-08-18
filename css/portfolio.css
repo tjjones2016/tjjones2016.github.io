@@ -2,8 +2,8 @@
 body {
     width: 100%;
     height: 100%;
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
+    font-family:"Indie Flower";
+    color: #585858;
     background-color: #f3f3f3;
 }
 
@@ -136,12 +136,15 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/overview.jpg) no-repeat bottom center scroll;
+    background: url(../img/intropic2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+h1{
+  color: #FF00FF
 }
 
 .intro .intro-body {
@@ -255,7 +258,7 @@ a:focus {
     height:auto;
     padding: 0;
     color: #fff;
-    background: url(../img/computertable.jpg) no-repeat bottom center scroll;
+    background: url(../img/porfolio.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -263,19 +266,26 @@ a:focus {
     -o-background-size: cover;
 }
 
-.about-section {
+.aboutme-section {
     width:100%;
     height: auto;
     
 }
-
+.contact-section {
+  
+h2 {
+  color:#6E6E6E
+}
+p {
+  color:#2EFEF7
+}
 #about , #contact{
-    color: #000;
+    color: #FFFFFF;
 }
 
 #about{
     padding:50px 0 100px 0;
-     background: #18bc9c;
+     background: url(../img/about3.jpg) no-repeat bottom center scroll;
 }
 
 @media(min-width:767px) {
